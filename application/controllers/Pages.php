@@ -15,7 +15,7 @@ class Pages extends CI_Controller {
     //put your code here
     public function view($page = 'home') {
        
-        if(!file(APPPATH.'views/pages/'.$page.'php'))
+        if(!file(APPPATH.'views/pages/'.$page.'.php'))
         {
             show_404();
         }
@@ -23,7 +23,7 @@ class Pages extends CI_Controller {
         $data['title'] = ucfirst($page);
         $this->load->view('templates/header',$data);
         $this->load->view('pages/'.$page,$data);
-        $this->load>view('templaes/footer',$data);
+        $this->load>view('templates/footer',$data);
         
     }
 }
