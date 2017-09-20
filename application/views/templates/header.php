@@ -6,4 +6,4 @@
 
 <htm>
     <head>CodeIgniter Tutorial </head>
-    <body><h1>√</h1>
+    <body><h1><?php echo $title;?></h1>
