@@ -75,10 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'sc.morlia.com ',
+        'port'=>'63306',
+	'username' => 'dengliangwang',
+	'password' => 'wdlymr@',
+	'database' => 'codeIg_test_wdl',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
