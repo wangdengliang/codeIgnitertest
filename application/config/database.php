@@ -75,15 +75,15 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'sc.morlia.com ',
+	'hostname' => 'sc.morlia.com',
         'port'=>'63306',
 	'username' => 'dengliangwang',
 	'password' => 'wdlymr@',
-	'database' => 'codeIg_test_wdl',
+	'database' => 'wdltest',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
+	'pconnect' => TRUE,
+	'db_debug' => TRUE,
 	'cache_on' => FALSE,
 	'cachedir' => '',
 	'char_set' => 'utf8',
@@ -93,5 +93,5 @@ $db['default'] = array(
 	'compress' => FALSE,
 	'stricton' => FALSE,
 	'failover' => array(),
-	'save_queries' => TRUE
+	
 );
