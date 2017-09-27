@@ -15,7 +15,8 @@ class Blog  extends CI_Controller{
     //put your code here
     public function index()
     {
-        echo 'hello word';
+        //echo 'hello word';
+        $this->load->view('blogview');
     }
     public function test($p1,$p2)
     {
