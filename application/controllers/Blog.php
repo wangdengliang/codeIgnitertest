@@ -17,4 +17,10 @@ class Blog  extends CI_Controller{
     {
         echo 'hello word';
     }
+    public function test($p1,$p2)
+    {
+        
+        echo $p1;
+        echo $p2;
+    }
 }
