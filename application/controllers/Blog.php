@@ -25,7 +25,7 @@ class Blog  extends CI_Controller{
         $game = $this->db->query('SELECT * FROM news;');
         
         foreach ($game->result_array() as $g) {
-            echo $g->title; 
+            echo $g['title']; 
             echo 'hhhhhhh';
         }
     }
